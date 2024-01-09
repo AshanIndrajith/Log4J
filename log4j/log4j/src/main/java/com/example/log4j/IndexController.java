@@ -10,9 +10,9 @@ public class IndexController {
 
     private static final Logger logger = Logger.getLogger(IndexController.class);
 
-    static {
-        BasicConfigurator.configure();
-    }
+//    static {
+//        BasicConfigurator.configure();
+//    }
 
     @GetMapping("/")
     public String index() {
